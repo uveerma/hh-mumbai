@@ -35,13 +35,13 @@ export default function Navbar() {
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
                     <img
-                      className="block h-8 w-auto rounded-full lg:hidden"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="block h-8 w-auto lg:hidden"
+                      src="https://cryptologos.cc/logos/solana-sol-logo.png?v=026"
                       alt="Your Company"
                     />
                     <img
-                      className="hidden h-8 w-auto rounded-full lg:block"
-                      src="https://static8.depositphotos.com/1472772/963/i/950/depositphotos_9632509-stock-photo-red-candy.jpg"
+                      className="hidden h-8 w-auto lg:block"
+                      src="https://cryptologos.cc/logos/solana-sol-logo.png?v=026"
                       alt="Your Company"
                     />
                   </div>
@@ -51,7 +51,7 @@ export default function Navbar() {
                     }}
                   >
                     <div className="inline-flex items-center pl-4 pt-1 text-xl font-bold text-gray-900">
-                      Candy Store
+                      Hackerhouses
                     </div>
                   </button>
                   <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

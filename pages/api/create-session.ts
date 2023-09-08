@@ -9,14 +9,14 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       const response = await candypay.session.create({
         success_url: "https://solpayments.vercel.app/success",
         cancel_url: "https://solpayments.vercel.app/",
-        tokens: ["samo", "bonk"],
+        tokens: ["samo", "bonk", "isc"],
         items: items,
         discounts: {
           collection_id: "B4x93Px5YYcQdpvEKmbPMWKGC5a8hytNqpitQFsEAjDx",
-          discount: 0.2,
-          name: "LILY NFT",
+          discount: 0.95,
+          name: "Coupon NFT",
           image:
-            "https://bafybeibgvv5fmhakbvo5uubwyaodvm57vzleunlf4cz4yvqee3k6xkmn2u.ipfs.nftstorage.link/2691.png?ext=png",
+            "https://merch.superteam.fun/wp-content/uploads/2021/04/Clubhouse-Back.png",
         },
       });
 
