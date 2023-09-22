@@ -12,8 +12,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         tokens: ["samo", "bonk", "isc"],
         items: items,
         discounts: {
-          collection_id: "J3CQs9xfn5YAPU1pP3YhdMLQcJuRtuFZBfDJSxxuwxof",
-          discount: 0.95,
+          collection_id: "AnJJQKgpS5BmQd5iHjjMcoDqm3AEjSv4erFLJjujLYPr",
+          discount: 1,
           name: "Coupon NFT",
           image:
             "https://merch.superteam.fun/wp-content/uploads/2021/04/Clubhouse-Back.png",
