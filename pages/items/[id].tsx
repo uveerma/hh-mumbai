@@ -11,7 +11,7 @@ const products = [
     price: 20,
     image:
       "https://merch.superteam.fun/wp-content/uploads/2023/06/Solana-Purple-Back.png",
-    description: "Grab at just $1 with Superteam Coupon NFT",
+    description: "Grab for FREE with Superteam Coupon NFT",
   },
 ];
 
